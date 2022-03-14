@@ -173,3 +173,13 @@ document.getElementById("btn9").addEventListener("click", function () {
     var textArea = document.getElementById("text9").value;
     localStorage.setItem("textarea9", textArea);
 });
+
+$("#text1").val(localStorage.getItem("textarea1"));
+$("#text2").val(localStorage.getItem("textarea1"));
+$("#text3").val(localStorage.getItem("textarea1"));
+$("#text4").val(localStorage.getItem("textarea1"));
+$("#text5").val(localStorage.getItem("textarea1"));
+$("#text6").val(localStorage.getItem("textarea1"));
+$("#text7").val(localStorage.getItem("textarea1"));
+$("#text8").val(localStorage.getItem("textarea1"));
+$("#text9").val(localStorage.getItem("textarea1"));
