@@ -1,6 +1,7 @@
  var hour = dayjs().get('hour')
 
 
+
 var time1 = dayjs().set('hour', 9, 'second', 0)
 var time2 = dayjs().set('hour', 10, 'second', 0)
 var time3 = dayjs().set('hour', 11, 'second', 0)
@@ -126,3 +127,49 @@ function timeLoop() {
 }
 
 timeLoop();
+
+
+document.getElementById("btn1").addEventListener("click", function () {
+    var textArea = document.getElementById("text1").value;
+    localStorage.setItem("textarea1", textArea);
+});
+
+document.getElementById("btn2").addEventListener("click", function () {
+    var textArea = document.getElementById("text2").value;
+    localStorage.setItem("textarea2", textArea);
+});
+
+document.getElementById("btn3").addEventListener("click", function () {
+    var textArea = document.getElementById("text3").value;
+    localStorage.setItem("textarea3", textArea);
+});
+
+document.getElementById("btn4").addEventListener("click", function () {
+    var textArea = document.getElementById("text4").value;
+    localStorage.setItem("textarea4", textArea);
+});
+
+document.getElementById("btn5").addEventListener("click", function () {
+    var textArea = document.getElementById("text5").value;
+    localStorage.setItem("textarea5", textArea);
+});
+
+document.getElementById("btn6").addEventListener("click", function () {
+    var textArea = document.getElementById("text6").value;
+    localStorage.setItem("textarea6", textArea);
+});
+
+document.getElementById("btn7").addEventListener("click", function () {
+    var textArea = document.getElementById("text7").value;
+    localStorage.setItem("textarea7", textArea);
+});
+
+document.getElementById("btn8").addEventListener("click", function () {
+    var textArea = document.getElementById("text8").value;
+    localStorage.setItem("textarea8", textArea);
+});
+
+document.getElementById("btn9").addEventListener("click", function () {
+    var textArea = document.getElementById("text9").value;
+    localStorage.setItem("textarea9", textArea);
+});
