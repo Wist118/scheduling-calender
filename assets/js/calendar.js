@@ -1,7 +1,6 @@
- var hour = dayjs().get('hour')
 
-
-
+// day and individual hour variables
+var hour = dayjs().get('hour')
 var time1 = dayjs().set('hour', 9, 'second', 0)
 var time2 = dayjs().set('hour', 10, 'second', 0)
 var time3 = dayjs().set('hour', 11, 'second', 0)
@@ -14,14 +13,14 @@ var time9 = dayjs().set('hour', 17, 'second', 0)
 const current = document.querySelector(".lead")
 
 
-
+// display and update current time to page
 var displayedTime = function() {
     current.textContent = dayjs().utc().toDate()
 }
 setInterval(displayedTime, 100)
 
 
-
+// check to see if current time is >, <, or = to work hours to then update time's class
 function timeLoop() {
         
 
@@ -128,7 +127,7 @@ function timeLoop() {
 
 timeLoop();
 
-
+// set value of user's text input to local storage on click
 document.getElementById("btn1").addEventListener("click", function () {
     var textArea = document.getElementById("text1").value;
     localStorage.setItem("textarea1", textArea);
@@ -174,6 +173,7 @@ document.getElementById("btn9").addEventListener("click", function () {
     localStorage.setItem("textarea9", textArea);
 });
 
+// use localstorage to keep user's text input 
 $("#text1").val(localStorage.getItem("textarea1"));
 $("#text2").val(localStorage.getItem("textarea1"));
 $("#text3").val(localStorage.getItem("textarea1"));
