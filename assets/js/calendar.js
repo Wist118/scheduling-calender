@@ -175,11 +175,11 @@ document.getElementById("btn9").addEventListener("click", function () {
 
 // use localstorage to keep user's text input 
 $("#text1").val(localStorage.getItem("textarea1"));
-$("#text2").val(localStorage.getItem("textarea1"));
-$("#text3").val(localStorage.getItem("textarea1"));
-$("#text4").val(localStorage.getItem("textarea1"));
-$("#text5").val(localStorage.getItem("textarea1"));
-$("#text6").val(localStorage.getItem("textarea1"));
-$("#text7").val(localStorage.getItem("textarea1"));
-$("#text8").val(localStorage.getItem("textarea1"));
-$("#text9").val(localStorage.getItem("textarea1"));
+$("#text2").val(localStorage.getItem("textarea2"));
+$("#text3").val(localStorage.getItem("textarea3"));
+$("#text4").val(localStorage.getItem("textarea4"));
+$("#text5").val(localStorage.getItem("textarea5"));
+$("#text6").val(localStorage.getItem("textarea6"));
+$("#text7").val(localStorage.getItem("textarea7"));
+$("#text8").val(localStorage.getItem("textarea8"));
+$("#text9").val(localStorage.getItem("textarea9"));
